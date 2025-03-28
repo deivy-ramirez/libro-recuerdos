@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libro de Recuerdos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Pantalla Inicial -->
+    <div id="inicio">
+        <h1>❤️ Felices 10 Meses ❤️</h1>
+        <h1> Amor de mi vida </h1>
+        <button id="btnIniciar">Iniciar</button>
+    </div>
+
+    <!-- Contenedor Principal -->
+    <div id="contenedor-libro">
+        <div class="navegacion">
+            <button class="flecha izquierda">&#10094;</button>
+            <button class="flecha derecha">&#10095;</button>
+        </div>
+        
+        <div class="libro">
+            <!-- Pagina 1 -->
+            <div class="pagina" data-song="songs/song1.mp3">
+                <img src="img/img1.webp" alt="Foto 1" class="foto-portada">
+                <div class="descripcion">
+                    <h3>Promesa</h3>
+                    <p>Recuerdas nuestra primer foto con nuestro anillo primer anillo?</p>
+                </div>
+            </div>
+        
+            <!-- Pagina 2 -->
+            <div class="pagina" data-song="songs/song2.mp3">
+                <img src="img/img2.webp" alt="Foto 2" class="foto-portada">
+                <div class="descripcion">
+                    <h3>Anillo de promesa</h3>
+                    <p>Aqui te entregue el anillo de promesa de que nos vamos a casar ❤️</p>
+                </div>
+            </div>
+        
+            <!-- Pagina 3 -->
+            <div class="pagina" data-song="songs/song3.mp3">
+                <img src="img/img3.webp" alt="Foto 3" class="foto-portada">
+                <div class="descripcion">
+                    <h3>Manilla de Eternidad</h3>
+                    <p>Desde ese momento siempre llevamos una parte del otro juntos</p>
+                </div>
+            </div>
+        
+            <!-- Pagina 4 -->
+            <div class="pagina" data-song="songs/song4.mp3">
+                <img src="img/img4.jpg" alt="Foto 4" class="foto-portada">
+                <div class="descripcion">
+                    <h3>Casamiento</h3>
+                    <p>Nos casamos virtualmente, solo falta hacerlo en persona</p>
+                </div>
+            </div>
+        
+            <!-- Pagina 5 -->
+            <div class="pagina" data-song="songs/song5.mp4">
+                <img src="img/img5.webp" alt="Foto 5" class="foto-portada">
+                <div class="descripcion">
+                    <h3>Diciembre juntos</h3>
+                    <p>Te acuerdas cuando fuimos a ver el alumbrado y tambien las estrellas?</p>
+                </div>
+            </div>
+        
+            <!-- Pagina 6 -->
+            <div class="pagina" data-song="songs/song6.mp3">
+                <img src="img/img6.jpg" alt="Foto 6" class="foto-portada">
+                <div class="descripcion">
+                    <h3>Navidad a tu lado</h3>
+                    <p>Nuestra primera pizza de navidad juntos</p>
+                </div>
+            </div>
+        
+            <!-- Pagina 7 -->
+            <div class="pagina" data-song="songs/song7.mp3">
+                <img src="img/img7.jpg" alt="Foto 7" class="foto-portada">
+                <div class="descripcion">
+                    <h3>Queen & King</h3>
+                    <p>Nuestro beso como rey y reina con nuestras coronas</p>
+                </div>
+            </div>
+        
+            <!-- Pagina 8 -->
+            <div class="pagina" data-song="songs/song8.mp3">
+                <img src="img/img8.jpg" alt="Foto 8" class="foto-portada">
+                <div class="descripcion">
+                    <h3>Globo de deseo</h3>
+                    <p>Aqui lanzamos nuestro segundo globo canyoya y pedimos un deseo</p>
+                </div>
+            </div>
+        
+            <!-- Pagina 9 -->
+            <div class="pagina" data-song="songs/song9.mp3">
+                <img src="img/img9.jpg" alt="Foto 9" class="foto-portada">
+                <div class="descripcion">
+                    <h3>Por siempre</h3>
+                    <p>Aqui inmortalizamos en nuestra piel nuestra promesa de for ever ❤️</p>
+                </div>
+            </div>
+        
+            <!-- Pagina 10 -->
+            <div class="pagina" data-song="songs/song10.mp3">
+                <img src="img/img10.jpg" alt="Foto 10" class="foto-portada">
+                <div class="descripcion">
+                    <h3>Special night</h3>
+                    <p>Una noche magica con el amor de mi vida</p>
+                </div>
+            </div>
+        
+            <!-- Pagina 11 -->
+            <div class="pagina" data-song="songs/song11.mp3">
+                <img src="img/img11.jpg" alt="Foto 11" class="foto-portada">
+                <div class="descripcion">
+                    <h3>Amor biker</h3>
+                    <p>Nuestra primera sesion de fotos como pareja biker, en una noche muy especial ❤️</p>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+    <!-- Modal de Imagen Completa -->
+    <div id="modal">
+        <img src="" alt="Imagen Completa">
+        <button id="cerrarModal">Cerrar</button>
+    </div>
+
+    <!-- Reproductor de Audio -->
+    <audio id="reproductor"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
